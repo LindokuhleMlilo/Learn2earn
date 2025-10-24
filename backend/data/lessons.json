@@ -1,0 +1,83 @@
+// data/lessons.json
+{
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "What is USDC?",
+      "description": "Learn about USD Coin and stablecoins",
+      "content": "USDC is a type of cryptocurrency known as a stablecoin...",
+      "quiz": [
+        {
+          "question": "What is USDC?",
+          "options": [
+            "A volatile cryptocurrency",
+            "A stablecoin pegged to the US dollar",
+            "A type of blockchain",
+            "A wallet provider"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Who issues USDC?",
+          "options": [
+            "Ethereum Foundation",
+            "Circle and Coinbase",
+            "Binance",
+            "US Government"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What backs USDC?",
+          "options": [
+            "Nothing - it's algorithmic",
+            "US dollars and equivalent assets",
+            "Gold",
+            "Other cryptocurrencies"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "reward": 10
+    },
+    {
+      "id": "lesson-2",
+      "title": "How Wallets Work",
+      "description": "Understanding cryptocurrency wallets",
+      "content": "A crypto wallet is a tool that allows you to interact with blockchain networks...",
+      "quiz": [
+        {
+          "question": "What does a crypto wallet store?",
+          "options": [
+            "Actual cryptocurrencies",
+            "Private keys",
+            "Personal information",
+            "Bank account details"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is a seed phrase?",
+          "options": [
+            "A password for your email",
+            "A backup for your wallet",
+            "A type of cryptocurrency",
+            "A mining algorithm"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which is NOT a type of wallet?",
+          "options": [
+            "Hardware wallet",
+            "Software wallet",
+            "Paper wallet",
+            "Cloud wallet"
+          ],
+          "correctAnswer": 3
+        }
+      ],
+      "reward": 10
+    }
+  ]
+}
